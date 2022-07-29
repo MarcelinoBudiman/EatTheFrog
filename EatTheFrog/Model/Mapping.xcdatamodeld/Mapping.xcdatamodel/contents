@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="20086" systemVersion="21G72" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Goal" representedClassName="Goal" syncable="YES" codeGenerationType="class">
+        <attribute name="goalDeadline" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="goalDetails" optional="YES" attributeType="String"/>
+        <attribute name="goalIsDone" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="goalName" attributeType="String"/>
+        <attribute name="goalReminder" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="goalStatus" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <relationship name="toSubTask" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="SubTask" inverseName="toGoals" inverseEntity="SubTask"/>
+    </entity>
+    <entity name="SubTask" representedClassName="SubTask" syncable="YES" codeGenerationType="class">
+        <attribute name="subTaskDetail" optional="YES" attributeType="String"/>
+        <attribute name="subTaskName" optional="YES" attributeType="String"/>
+        <attribute name="subTaskReminder" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <relationship name="toGoals" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Goal" inverseName="toSubTask" inverseEntity="Goal"/>
+    </entity>
+    <elements>
+        <element name="Goal" positionX="-63" positionY="-18" width="128" height="134"/>
+        <element name="SubTask" positionX="-54" positionY="0" width="128" height="89"/>
+    </elements>
+</model>

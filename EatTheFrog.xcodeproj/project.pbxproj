@@ -11,8 +11,18 @@
 		1F4EF3E02887D6B10056E693 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4EF3DF2887D6B10056E693 /* ContentView.swift */; };
 		1F4EF3E22887D6B30056E693 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F4EF3E12887D6B30056E693 /* Assets.xcassets */; };
 		1F4EF3E52887D6B30056E693 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F4EF3E42887D6B30056E693 /* Preview Assets.xcassets */; };
-		1F4EF3E72887D6B30056E693 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4EF3E62887D6B30056E693 /* Persistence.swift */; };
-		1F4EF3EA2887D6B30056E693 /* EatTheFrog.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1F4EF3E82887D6B30056E693 /* EatTheFrog.xcdatamodeld */; };
+		1F4EF45B2888551B0056E693 /* TaskCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4EF45A2888551B0056E693 /* TaskCardView.swift */; };
+		1F4EF45D288934360056E693 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4EF45C288934360056E693 /* HomeView.swift */; };
+		1F4EF45F288934820056E693 /* GoalsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4EF45E288934820056E693 /* GoalsView.swift */; };
+		1F4EF463288937470056E693 /* Mapping.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1F4EF461288937470056E693 /* Mapping.xcdatamodeld */; };
+		1F4EF46C288D0E220056E693 /* EatTheFrogViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4EF46B288D0E220056E693 /* EatTheFrogViewModel.swift */; };
+		1F4EF46E288D2E590056E693 /* AddGoalsSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4EF46D288D2E590056E693 /* AddGoalsSheetView.swift */; };
+		1F4EF472288D32C40056E693 /* Goal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4EF471288D32C40056E693 /* Goal.swift */; };
+		1F946587288E9AE300136252 /* GoalDetailSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F946586288E9AE300136252 /* GoalDetailSheet.swift */; };
+		1F94658A28902CBB00136252 /* DoneCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F94658928902CBB00136252 /* DoneCardView.swift */; };
+		1F94658C289033BA00136252 /* FalseCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F94658B289033BA00136252 /* FalseCardView.swift */; };
+		1F94658F28913AE000136252 /* QuoteKit in Frameworks */ = {isa = PBXBuildFile; productRef = 1F94658E28913AE000136252 /* QuoteKit */; };
+		1F94659328913D9100136252 /* QuotesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F94659228913D9100136252 /* QuotesViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,8 +31,17 @@
 		1F4EF3DF2887D6B10056E693 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1F4EF3E12887D6B30056E693 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F4EF3E42887D6B30056E693 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		1F4EF3E62887D6B30056E693 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		1F4EF3E92887D6B30056E693 /* EatTheFrog.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EatTheFrog.xcdatamodel; sourceTree = "<group>"; };
+		1F4EF45A2888551B0056E693 /* TaskCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCardView.swift; sourceTree = "<group>"; };
+		1F4EF45C288934360056E693 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		1F4EF45E288934820056E693 /* GoalsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsView.swift; sourceTree = "<group>"; };
+		1F4EF462288937470056E693 /* Mapping.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Mapping.xcdatamodel; sourceTree = "<group>"; };
+		1F4EF46B288D0E220056E693 /* EatTheFrogViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EatTheFrogViewModel.swift; sourceTree = "<group>"; };
+		1F4EF46D288D2E590056E693 /* AddGoalsSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGoalsSheetView.swift; sourceTree = "<group>"; };
+		1F4EF471288D32C40056E693 /* Goal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Goal.swift; sourceTree = "<group>"; };
+		1F946586288E9AE300136252 /* GoalDetailSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalDetailSheet.swift; sourceTree = "<group>"; };
+		1F94658928902CBB00136252 /* DoneCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoneCardView.swift; sourceTree = "<group>"; };
+		1F94658B289033BA00136252 /* FalseCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FalseCardView.swift; sourceTree = "<group>"; };
+		1F94659228913D9100136252 /* QuotesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F94658F28913AE000136252 /* QuoteKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,11 +75,10 @@
 		1F4EF3DC2887D6B10056E693 /* EatTheFrog */ = {
 			isa = PBXGroup;
 			children = (
-				1F4EF3DD2887D6B10056E693 /* EatTheFrogApp.swift */,
-				1F4EF3DF2887D6B10056E693 /* ContentView.swift */,
+				1F4EF468288D0D8A0056E693 /* ViewModel */,
+				1F4EF46728893AA30056E693 /* View */,
+				1F4EF460288937270056E693 /* Model */,
 				1F4EF3E12887D6B30056E693 /* Assets.xcassets */,
-				1F4EF3E62887D6B30056E693 /* Persistence.swift */,
-				1F4EF3E82887D6B30056E693 /* EatTheFrog.xcdatamodeld */,
 				1F4EF3E32887D6B30056E693 /* Preview Content */,
 			);
 			path = EatTheFrog;
@@ -71,6 +90,48 @@
 				1F4EF3E42887D6B30056E693 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1F4EF460288937270056E693 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1F4EF461288937470056E693 /* Mapping.xcdatamodeld */,
+				1F4EF471288D32C40056E693 /* Goal.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1F4EF46728893AA30056E693 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1F94658828902C9B00136252 /* Home Card */,
+				1F4EF3DD2887D6B10056E693 /* EatTheFrogApp.swift */,
+				1F4EF3DF2887D6B10056E693 /* ContentView.swift */,
+				1F4EF45C288934360056E693 /* HomeView.swift */,
+				1F4EF45E288934820056E693 /* GoalsView.swift */,
+				1F4EF46D288D2E590056E693 /* AddGoalsSheetView.swift */,
+				1F946586288E9AE300136252 /* GoalDetailSheet.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1F4EF468288D0D8A0056E693 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1F4EF46B288D0E220056E693 /* EatTheFrogViewModel.swift */,
+				1F94659228913D9100136252 /* QuotesViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1F94658828902C9B00136252 /* Home Card */ = {
+			isa = PBXGroup;
+			children = (
+				1F4EF45A2888551B0056E693 /* TaskCardView.swift */,
+				1F94658928902CBB00136252 /* DoneCardView.swift */,
+				1F94658B289033BA00136252 /* FalseCardView.swift */,
+			);
+			path = "Home Card";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -89,6 +150,9 @@
 			dependencies = (
 			);
 			name = EatTheFrog;
+			packageProductDependencies = (
+				1F94658E28913AE000136252 /* QuoteKit */,
+			);
 			productName = EatTheFrog;
 			productReference = 1F4EF3DA2887D6B10056E693 /* EatTheFrog.app */;
 			productType = "com.apple.product-type.application";
@@ -117,6 +181,9 @@
 				Base,
 			);
 			mainGroup = 1F4EF3D12887D6B10056E693;
+			packageReferences = (
+				1F94658D28913AE000136252 /* XCRemoteSwiftPackageReference "QuoteKit" */,
+			);
 			productRefGroup = 1F4EF3DB2887D6B10056E693 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -143,10 +210,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F4EF3EA2887D6B30056E693 /* EatTheFrog.xcdatamodeld in Sources */,
-				1F4EF3E72887D6B30056E693 /* Persistence.swift in Sources */,
+				1F4EF463288937470056E693 /* Mapping.xcdatamodeld in Sources */,
+				1F4EF45B2888551B0056E693 /* TaskCardView.swift in Sources */,
+				1F4EF46C288D0E220056E693 /* EatTheFrogViewModel.swift in Sources */,
+				1F94658A28902CBB00136252 /* DoneCardView.swift in Sources */,
+				1F94659328913D9100136252 /* QuotesViewModel.swift in Sources */,
+				1F4EF45D288934360056E693 /* HomeView.swift in Sources */,
+				1F4EF45F288934820056E693 /* GoalsView.swift in Sources */,
+				1F4EF46E288D2E590056E693 /* AddGoalsSheetView.swift in Sources */,
 				1F4EF3E02887D6B10056E693 /* ContentView.swift in Sources */,
+				1F4EF472288D32C40056E693 /* Goal.swift in Sources */,
 				1F4EF3DE2887D6B10056E693 /* EatTheFrogApp.swift in Sources */,
+				1F94658C289033BA00136252 /* FalseCardView.swift in Sources */,
+				1F946587288E9AE300136252 /* GoalDetailSheet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,14 +424,33 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCRemoteSwiftPackageReference section */
+		1F94658D28913AE000136252 /* XCRemoteSwiftPackageReference "QuoteKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rudrankriyam/QuoteKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1F94658E28913AE000136252 /* QuoteKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1F94658D28913AE000136252 /* XCRemoteSwiftPackageReference "QuoteKit" */;
+			productName = QuoteKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+
 /* Begin XCVersionGroup section */
-		1F4EF3E82887D6B30056E693 /* EatTheFrog.xcdatamodeld */ = {
+		1F4EF461288937470056E693 /* Mapping.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				1F4EF3E92887D6B30056E693 /* EatTheFrog.xcdatamodel */,
+				1F4EF462288937470056E693 /* Mapping.xcdatamodel */,
 			);
-			currentVersion = 1F4EF3E92887D6B30056E693 /* EatTheFrog.xcdatamodel */;
-			path = EatTheFrog.xcdatamodeld;
+			currentVersion = 1F4EF462288937470056E693 /* Mapping.xcdatamodel */;
+			path = Mapping.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
